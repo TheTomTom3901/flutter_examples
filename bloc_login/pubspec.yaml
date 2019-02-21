@@ -1,0 +1,11 @@
+name: bloc_login
+description: A BloC login app
+
+dependencies:
+  flutter:
+    sdk: flutter
+  common:
+    path: ../common
+
+flutter:
+  uses-material-design: true

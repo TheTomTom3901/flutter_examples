@@ -1,0 +1,12 @@
+name: date_time
+description: An app to display the local date & time
+
+dependencies:
+  flutter:
+    sdk: flutter
+  common:
+    path: ../common
+  intl: ^0.15.7
+
+flutter:
+  uses-material-design: true

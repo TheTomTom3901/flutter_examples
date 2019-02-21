@@ -1,0 +1,18 @@
+name: posts_loading
+description: An app to load posts from a network
+
+dependencies:
+  flutter:
+    sdk: flutter
+  common:
+    path: ../common
+  jaguar_serializer: ^2.2.8
+  jaguar_client: ^2.4.2
+  http: ^0.11.3+17
+
+dev_dependencies:
+  jaguar_serializer_cli: ^2.2.5
+  build_runner: ^1.0.0
+
+flutter:
+  uses-material-design: true

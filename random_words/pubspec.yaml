@@ -1,0 +1,12 @@
+name: random_words
+description: A random word generator app with saving a mechanism
+
+dependencies:
+  flutter:
+    sdk: flutter
+  common:
+    path: ../common
+  english_words: ^3.1.0
+
+flutter:
+  uses-material-design: true

@@ -1,0 +1,17 @@
+name: users_loading
+description: An app to load users from a network
+
+dependencies:
+  flutter:
+    sdk: flutter
+  common:
+    path: ../common
+  http: ^0.12.0
+  json_annotation: ^2.0.0
+
+dev_dependencies:
+  build_runner: ^1.0.0
+  json_serializable: ^2.0.0
+
+flutter:
+  uses-material-design: true
