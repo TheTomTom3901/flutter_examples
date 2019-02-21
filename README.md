@@ -2,6 +2,9 @@
 A repository of examples for Flutter (not to be released as full apps). These range from basic counters to more fleshed out systems using BloC and network calls.
 
 - [**Common**](common) A project of shared dependencies, files and properties to be used in all examples. This is just to make it easy to use dependencies without having to add it to every possible app
+    - **Enum** A class that acts like a Java enum
+    - **BloCProvider** A class to provide and access BloC's
+    - **RxObservableList** A list intertwined with an RxDart BehaviourSubject allowing for a list which can easily be interacted with and observed
 
 - [**Basic Counter**](basic_counter) A counter app using the standard state model, nothing special, just the default counter really
 
