@@ -21,3 +21,5 @@ A repository of examples for Flutter (not to be released as full apps). These ra
 - [**Users Loading**](users_loading) An app to display a list of users using network calls and JSON deserialization. json_serializable used for processing
 
 - [**Posts Loading**](posts_loading) An app to display a list of posts from a REST API. jaguar packages used for JSON processing and network calls
+
+- [**Custom Shapes**](custom_shapes) A testing area for creating custom shapes with CustomPainter
