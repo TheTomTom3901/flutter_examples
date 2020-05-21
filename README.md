@@ -4,7 +4,9 @@ A repository of examples for Flutter (not to be released as full apps). These ra
 - [**Common**](common) A project of shared dependencies, files and properties to be used in all examples. This is just to make it easy to use dependencies without having to add it to every possible app
     - **Enum** A class that acts like a Java enum
     - **BloCProvider** A class to provide and access BloC's
-    - **RxObservableList** A list intertwined with an RxDart BehaviourSubject allowing for a list which can easily be interacted with and observed
+    - **RxObservableCollection** Encapsulates an RxDart BehaviorSubject allowing for interactions and observations on Iterables
+    - **RxObservableList** A delegating list mixed with RxObservableCollection
+    - **RxObservableSet** A delegating set mixed with RxObservableCollection
 
 - [**Basic Counter**](basic_counter) A counter app using the standard state model, nothing special, just the default counter really
 
